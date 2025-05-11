@@ -73,9 +73,9 @@ $dbname = "seu_banco";
 
 ---
 
-## 📷 Prévia do Projeto
+## 📐 Esquema do Projeto
 
-!(/Protótipo/Esquema/esquema_Bee-byte.png)
+![Esquema](/Protótipo/Esquema/esquema_Bee-byte.png)
 
 ---
 
@@ -84,6 +84,14 @@ $dbname = "seu_banco";
 O Bee-byte foi apresentado na **Mostra Nacional de Robótica 2024**, destacando-se como um projeto inovador em apicultura de precisão, robótica e inteligência artificial.
 
 📄 [Artigo Completo](/Artigo/ARTIGO.pdf)
+
+---
+
+## 🌍 Veja ao vivo uma demonstração
+
+[Acesse o site do Bee-byte](https://bee-byte.com/)
+
+---
 
 ---
 
