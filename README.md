@@ -6,69 +6,60 @@ Bee-byte é um sistema inovador de monitoramento remoto de colmeias, integrando 
 
 ## 🌟 Destaques do Projeto
 
-- **Monitoramento não-invasivo**: coleta de dados essenciais com mínimo impacto nas abelhas.
-- **Análise inteligente**: insights automáticos gerados por IA (Gemini - Google).
-- **Acessibilidade**: interface web intuitiva com gráficos atualizados em tempo real.
-- **Armazenamento robusto**: utiliza banco de dados MySQL para gestão eficaz dos dados coletados.
-- **Escalabilidade**: projeto desenvolvido para fácil expansão em ambientes reais.
+- 🐝 **Monitoramento não-invasivo**: coleta de dados essenciais com mínimo impacto nas abelhas.
+- 🤖 **Análise inteligente**: insights automáticos gerados por IA (Gemini - Google).
+- 🎨 **Interface Intuitiva**: gráficos atualizados em tempo real em uma interface web amigável.
+- 📦 **Banco de Dados MySQL**: armazenamento robusto e gerenciamento eficaz dos dados coletados.
+- 🚀 **Escalabilidade**: fácil expansão em ambientes reais.
 
 ---
 
 ## 📋 Funcionalidades
 
-- ✅ **Monitoramento contínuo** de temperatura, umidade e peso das colmeias.
-- 📡 **Envio automático** dos dados coletados para armazenamento no banco de dados MySQL.
-- 📊 **Visualização gráfica** em tempo real dos dados coletados.
-- 🤖 **Análise preditiva e sugestões de manejo** geradas pela IA Gemini.
+- ✅ **Monitoramento contínuo**: temperatura, umidade e peso das colmeias.
+- 📡 **Envio automático**: dados coletados diretamente para o banco de dados MySQL.
+- 📊 **Visualização gráfica em tempo real**.
+- 🔍 **Análise preditiva**: insights e sugestões de manejo geradas pela IA Gemini.
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-**Hardware:**
-- Arduino Uno R4 Wi-Fi
-- Sensor DHT22 (temperatura e umidade)
-- Célula de carga com módulo HX711 (peso)
-- Protótipo impresso em 3D
-
-**Software e Serviços:**
-- Arduino IDE (C/C++)
-- MySQL (armazenamento de dados)
-- PHP (backend)
-- Google Gemini API (IA generativa)
-- HTML, CSS, JavaScript (Chart.js, Axios)
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/-Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/-Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
 ---
 
-## 🔗 Como Funciona?
+## 🔗 Fluxo do Projeto
 
-1. Sensores instalados na colmeia coletam dados ambientais.
-2. Arduino envia esses dados diretamente para o banco de dados MySQL.
-3. Dados são exibidos em tempo real em uma interface web.
-4. Usuário pode solicitar análise automatizada dos dados pela IA.
-5. IA gera insights e recomendações práticas para o manejo das colmeias.
+1. 🛰️ Sensores coletam dados ambientais.
+2. 💾 Arduino envia dados diretamente para MySQL.
+3. 🌐 Interface web exibe os dados em tempo real.
+4. 🖱️ Usuário solicita análise da IA.
+5. 💡 IA gera insights e recomendações práticas.
 
 ---
 
-## 🚀 Como Usar o Projeto
+## 🚀 Como Usar
 
-1. Clone este repositório.
-
+### 🖥️ Clone o repositório:
 ```bash
 git clone https://github.com/diogenessouza/bee-byte.git
 ```
 
-2. Instale as dependências necessárias.
-
-3. Configure suas credenciais no arquivo `arduino_secrets.h`:
-
+### 📍 Configure o Wi-Fi (arquivo `arduino_secrets.h`):
 ```cpp
 #define SECRET_SSID "Sua rede Wi-Fi"
 #define SECRET_PASS "Sua senha Wi-Fi"
 ```
 
-4. Configure as credenciais do banco de dados no arquivo `get_data.php` e `seu_script.php`:
-
+### 🗄️ Configure o Banco de Dados (`get_data.php`, `seu_script.php`):
 ```php
 $servername = "localhost";
 $username = "seu_usuario";
@@ -76,9 +67,9 @@ $password = "sua_senha";
 $dbname = "seu_banco";
 ```
 
-5. Faça o upload do código no Arduino utilizando a IDE Arduino.
+### ⚡ Faça upload do código no Arduino.
 
-6. Acesse a página web `index.html` no navegador para visualizar os dados e interagir com a análise via IA.
+### 🌍 Abra `index.html` para visualizar e interagir.
 
 ---
 
@@ -90,23 +81,23 @@ $dbname = "seu_banco";
 
 ## 🎓 Contexto Acadêmico
 
-O Bee-byte foi desenvolvido e apresentado na **Mostra Nacional de Robótica 2024**, destacando-se como um projeto promissor na área de apicultura de precisão, robótica e inteligência artificial.
+O Bee-byte foi apresentado na **Mostra Nacional de Robótica 2024**, destacando-se como um projeto inovador em apicultura de precisão, robótica e inteligência artificial.
 
-Para detalhes adicionais, consulte o [artigo completo](ARTIGO.pdf) e o [pôster de apresentação](Pôster.pdf).
+📄 [Artigo Completo](ARTIGO.pdf) | 🖼️ [Pôster de Apresentação](Pôster.pdf)
 
 ---
 
 ## 📚 Referências
 
-- [Gemini AI - Google](https://deepmind.google/gemini/)
-- [Arduino Uno R4 Wi-Fi](https://docs.arduino.cc/hardware/uno-r4-wifi)
+- 🌐 [Gemini AI - Google](https://deepmind.google/gemini/)
+- 🎛️ [Arduino Uno R4 Wi-Fi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
 ---
 
 ## 🙌 Agradecimentos
 
-Agradecemos à equipe organizadora da Mostra Nacional de Robótica pela oportunidade de apresentar este projeto, além de todos os colaboradores e entusiastas que nos apoiaram.
+Agradecemos à equipe organizadora da Mostra Nacional de Robótica pela oportunidade, bem como todos os colaboradores e entusiastas que apoiaram este projeto.
 
 ---
 
-💡 **Sugestões e contribuições são muito bem-vindas!** Entre em contato pelo e-mail: [diogenes@diocesanocaruaru.g12.br](mailto:diogenes@diocesanocaruaru.g12.br).
+💡 **Sugestões e contribuições são bem-vindas!** 📧 [diogenes@diocesanocaruaru.g12.br](mailto:diogenes@diocesanocaruaru.g12.br).
