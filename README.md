@@ -89,7 +89,7 @@ O Bee-byte foi apresentado na **Mostra Nacional de Robótica 2024**, destacando-
 
 ## 🌍 Veja ao vivo uma demonstração
 
-[Acesse o site do Bee-byte](https://bee-byte.com/)
+- 🌐 [Acesse o site do Bee-byte](https://bee-byte.com/)
 
 ---
 
