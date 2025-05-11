@@ -83,7 +83,7 @@ $dbname = "seu_banco";
 
 O Bee-byte foi apresentado na **Mostra Nacional de Robótica 2024**, destacando-se como um projeto inovador em apicultura de precisão, robótica e inteligência artificial.
 
-📄 [Artigo Completo](ARTIGO.pdf) | 🖼️ [Pôster de Apresentação](Pôster.pdf)
+📄 [Artigo Completo](/Artigo/ARTIGO.pdf)
 
 ---
 
