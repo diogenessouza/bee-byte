@@ -75,7 +75,7 @@ $dbname = "seu_banco";
 
 ## 📷 Prévia do Projeto
 
-![Interface Web](esquema_Bee-byte.png)
+![Interface Web](/Protótipo/Esquema/esquema_Bee-byte.png)
 
 ---
 
